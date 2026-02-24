@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+**/node_modules/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.env
+.env.local
+.env.*.local
+**/.env.local
+
+# Build
+.next/
+**/.next/
+out/
+dist/
+build/
+
+# Database
+*.db
+**/data/
+proforma-portal/data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
